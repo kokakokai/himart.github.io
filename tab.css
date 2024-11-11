@@ -1,0 +1,269 @@
+@media all and (min-width: 768px){
+    .pc{display: none;}
+    .m{display: none;}
+    .tab{display: block;}
+
+    header .wrap{
+        padding: 20px 16px;
+    }
+    header .logo{
+        width: 20%;
+    }
+    header .hd_sub ul{
+        gap: 62px;
+        padding: 0 30px;
+    }
+    header .hd_sub ul li{
+        padding: unset;
+        width: 100%;
+    }
+    header .hd_sub .btn_search{
+        width: 15%;
+    }
+    header .hd_sub .btn_shop{
+        width: 15%;
+    }
+    header .hd_sub .btn_menu{
+        width: 15%;
+    }
+    header .gnb .btn-close{
+        width: 7%;
+    }
+    header .gnb .menu{
+        
+        padding: 0 30px;
+        background-color: #fff;
+        /* z-index: 1; */
+    }
+    header .gnb .menu .upmenu{
+        margin-top: 50px;
+        /* padding: 0 50px; */
+        gap: 30px;
+    }
+    header .gnb .menu .upmenu li{
+        font-size: 16px;
+    }
+    header .gnb .menu .upmenu li:first-child::after{
+        right: -17px;
+    }
+    header .gnb .menu .navi{
+        padding: 65px 0;
+    }
+    header .gnb .menu .navi>li{
+        margin-top: 50px;
+    }
+    header .gnb .menu .navi>li a{
+        font-size: 20px;
+    }
+    header .gnb .menu .navi .sub>li>a{
+        font-size: 18px;
+    }
+    header .gnb .menu .navi .submenu li a{
+        font-size: 18px;
+    }
+    .banner .swiper-slide img{
+        width: 100%;
+    }
+    .s1{
+        padding: 30px 16px;
+    }
+    .s1 .swiper-slide{
+        width: 25%;
+    }
+    
+    .s2{
+        padding: 30px 16px;
+    }
+    .s2 .all{
+        font-size: 16px;
+    }
+    .s2 h2{
+        font-size: 28px;
+        color: #333;
+    }
+    .s2 .swiper-wrapper{
+        margin-top: 30px;
+    }
+    .s2 .swiper-slide{
+        width: 33%;
+    }
+    .s2 .swiper-slide a .textbox p{
+        font-size: 18px;
+        height: 60px;
+    }
+    .s2 .swiper-slide a .textbox .txt{
+        font-size: 22px;
+    }
+    .s2 .swiper-slide a .textbox .txt span{
+        font-size: 18px;
+    }
+    .s2 .wrap a>p{
+        font-size: 18px;
+        margin-top: 10px;
+        text-align: end;
+    }
+    .s3{
+        padding: 30px 16px;
+    }
+    .s3 h2{
+        font-size: 28px;
+    }
+    .s3 .tab .tabmenu{
+        width: 920px;
+        /* margin-bottom: 10px; */
+    }
+    .s3 .tab button{
+        font-size: 18px;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+    .s3 .swiper-wrapper{
+        margin-top: 30px;
+    }
+    .s3 .swiper-slide{
+        width: 33%;
+    }
+    .s3 .swiper-slide a .textbox p{
+        font-size: 18px;
+        height: 60px;
+    }
+    .s3 .swiper-slide a .textbox .txt{
+        font-size: 22px;
+    }
+    .s3 .swiper-slide a .textbox .txt span{
+        font-size: 18px;
+    }
+    .s4{
+        padding: 30px 16px;
+    }
+    .s4 h2{
+        font-size: 28px;
+    }
+    .s4 .con{
+        gap: 16px;
+    }
+    .s4 .con .box a img{
+        height: 90px;
+        width: auto;
+    }
+    .s4 .con .box a .tit{
+        
+        font-size: 16px;
+    }
+    .s5{
+        padding: 30px 16px;
+    }
+    .s5 h2{
+        font-size: 28px;
+    }
+    .s5 .textbox_1{
+        padding: 20px 50px;
+    }
+    .s5 .textbox_1 h3{
+        font-size: 20px;
+        height: 70px;
+    }
+    .s5 .textbox_1 p{
+        font-size: 18px;
+    }
+    .s5 .textbox_1 a{
+        width: 20%;
+    }
+    .s5 .textbox_2{
+        padding: 20px 50px;
+    }
+    .s5 .textbox_2 h3{
+        font-size: 20px;
+        height: 70px;
+    }
+    .s5 .textbox_2 p{
+        font-size: 18px;
+    }
+    .s5 .textbox_2 a{
+        width: 20%;
+    }
+    .s5 .textbox_3{
+        padding: 20px 50px;
+    }
+    .s5 .textbox_3 h3{
+        font-size: 20px;
+        height: 70px;
+    }
+    .s5 .textbox_3 p{
+        font-size: 18px;
+    }
+    .s5 .textbox_3 a{
+        width: 20%;
+    }
+    footer{
+        padding: 30px 16px;
+    }
+    footer .customer{
+        padding-bottom: 30px;
+    }
+    footer .customer h4{
+        font-size: 20px;
+    }
+    footer .customer p{
+        font-size: 16px;
+    }
+    footer .text{
+        /* display: flex; */
+        gap: 50px;
+    }
+    footer .txt{
+        display: block;
+        margin-top: 30px;
+    }
+    footer .numbers{
+        gap: 50px;
+        margin-top: 10px;
+    }
+    footer .number{
+        font-size: 18px;
+        width: max-content;
+    }
+    footer .txt2{
+        margin-top: 30px;
+    }
+    footer .txt2 .btn_flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    footer .txt2 .btn{
+        /* gap: 16px; */
+        margin-top: unset;
+        font-size: 18px;
+    }
+    footer .sub{
+        padding: 30px 0;
+    }
+    footer .sub li{
+        font-size: 16px;
+        
+    }
+    footer .bottom{
+        padding-top: 30px;
+    }
+    footer .bottom .ftlogo{
+        width: 30%;
+    }
+    footer .bottom h4{
+        font-size: 22px;
+    }
+    footer .bottom p{
+        font-size: 14px;
+    }
+    footer .copy{
+        font-size: 14px;
+    }
+    footer .sns{
+        gap: 16px;
+    }
+    footer .sns li{
+        width: 10%;
+        padding: 0 20px;
+    }
+}
