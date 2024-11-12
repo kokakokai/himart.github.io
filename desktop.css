@@ -286,9 +286,11 @@
         margin-top: 30px;
     }
     footer .numbers{
-        gap: 35px;
         margin-top: 0px;
         margin-left: 30px;
+    }
+    footer .numbers .number:first-child{
+        margin-top: 20px;
     }
     footer .txt2{
         display: flex;
@@ -314,7 +316,7 @@
     }
     footer .sub li{
         margin-bottom: unset;
-        font-size: 18px;
+        font-size: 16px;
     }
     footer .bottom{
         display: flex;
